@@ -1,0 +1,13 @@
+[project]
+name = "my-claude-code"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "openai>=1.51.0",
+    "textual>=0.70.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+]
